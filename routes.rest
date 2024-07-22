@@ -1,0 +1,25 @@
+GET http://localhost:3000/user
+
+###
+
+GET  http://localhost:3000/user/669e3438ce60f80e616b2187
+
+###
+
+POST http://localhost:3000/user
+
+Content-Type:application/json
+
+{
+    "firstname" : "Ousmane",
+    "lastname": "NDIEGUENE",
+    "subscriberToChannel": "Kilif"
+}
+
+###
+
+DELETE http://localhost:3000/user/669e3438ce60f80e616b2187
+
+###
+
+ http://localhost:3000/user/669e3438ce60f80e616b2187
